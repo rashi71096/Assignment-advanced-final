@@ -8,7 +8,7 @@ class App extends Component {
   state = { data: [], Loader: true }
   componentDidMount = async () => {
     const res = await axios.get('https://jsonplaceholder.typicode.com/users')
-    //console.log(res.data);
+    console.log(res.data)
 
     this.setState({ data: res.data, Loader: false })
   }
@@ -20,7 +20,6 @@ class App extends Component {
     //console.log(dataSource);
     this.setState({ data: [...dataSource] })
     console.log(dataSource)
-    console.log('DONE')
   }
 
   render() {
