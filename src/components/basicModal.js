@@ -37,7 +37,7 @@ class App extends React.Component {
           okButtonProps={{ disabled: true }}
           cancelButtonProps={{ disabled: true }}
         >
-          <p>Some contents...</p>
+          {/* <p>Some contents...</p> */}
           <p>Some contents...</p>
           <p>Some contents...</p>
           <p>Some contents...</p>
